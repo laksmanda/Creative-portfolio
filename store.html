@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko & Jasa - Nama Anda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom-animations.css">
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="index.html">Nama Anda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#hero">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog & Edukasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="health-tips.html">Tips Sehat</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="store.html">Toko/Jasa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-4">
+        <section id="store-content" class="py-5">
+            <h1 class="text-center mb-4 animate-slide-up">Produk Digital & Layanan Profesional</h1>
+            <p class="text-center lead mb-5 animate-slide-up-delay-1">Perkaya proyek Anda dengan aset digital berkualitas tinggi atau manfaatkan keahlian saya untuk kebutuhan spesifik Anda.</p>
+
+            <h2 class="mb-4 text-center">Produk Digital</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+                <div class="col animate-zoom-in">
+                    <div class="card h-100 shadow-sm project-card" data-project-id="1">
+                        <img src="img/product-mockup1.png" class="card-img-top" alt="UI Kit Aplikasi Keuangan">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">UI Kit Aplikasi Keuangan "FinFlow"</h5>
+                            <p class="card-text text-muted">Set lengkap komponen UI modern untuk aplikasi finansial. Termasuk 50+ layar, ikon, dan panduan gaya.</p>
+                            <span class="fs-4 fw-bold text-success">Rp 150.000</span>
+                            <p class="mt-2"><small>Format: Figma, Sketch, Adobe XD</small></p>
+                            <button class="btn btn-outline-success mt-3 w-100 add-to-cart-btn" data-product-id="finflow-ui-kit">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate-zoom-in delay-1">
+                    <div class="card h-100 shadow-sm project-card" data-project-id="2">
+                        <img src="img/product-mockup2.png" class="card-img-top" alt="E-book Penulisan Efektif">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">E-book: "Panduan Penulisan Konten Web Efektif"</h5>
+                            <p class="card-text text-muted">Pelajari tips dan trik menulis konten web yang menarik, informatif, dan SEO-friendly. Cocok untuk blogger dan marketer.</p>
+                            <span class="fs-4 fw-bold text-success">Rp 75.000</span>
+                            <p class="mt-2"><small>Format: PDF, EPUB</small></p>
+                            <button class="btn btn-outline-success mt-3 w-100 add-to-cart-btn" data-product-id="ebook-writing">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate-zoom-in delay-2">
+                    <div class="card h-100 shadow-sm project-card" data-project-id="3">
+                        <img src="img/product-mockup3.png" class="card-img-top" alt="Font Kustom Modern Sans">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Font Kustom "Modern Sans"</h5>
+                            <p class="card-text text-muted">Font sans-serif bersih dan modern, ideal untuk branding, website, dan aplikasi. Termasuk berbagai ketebalan.</p>
+                            <span class="fs-4 fw-bold text-success">Rp 120.000</span>
+                            <p class="mt-2"><small>Lisensi: Personal & Komersial</small></p>
+                            <button class="btn btn-outline-success mt-3 w-100 add-to-cart-btn" data-product-id="modern-sans-font">Tambah ke Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mb-4 text-center">Layanan Profesional</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col animate-fade-in delay-3">
+                    <div class="card h-100 shadow-sm project-card" data-project-id="1">
+                        <h4 class="card-title mb-3">Jasa Konsultasi UI/UX (1 Jam)</h4>
+                        <p class="card-text">Sesi konsultasi personal untuk membahas tantangan desain UI/UX Anda, memberikan umpan balik, dan saran strategis.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Analisis Proyek Singkat</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sesi Video Call 60 Menit</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Ringkasan Rekomendasi</li>
+                        </ul>
+                        <span class="fs-3 fw-bold text-primary">Rp 300.000 / Sesi</span>
+                        <a href="index.html#contact" class="btn btn-primary mt-3 w-100">Pesan Konsultasi</a>
+                    </div>
+                </div>
+                <div class="col animate-fade-in delay-4">
+                    <div class="card h-100 shadow-sm project-card" data-project-id="2">
+                        <h4 class="card-title mb-3">Jasa Redesain Website (Paket Dasar)</h4>
+                        <p class="card-text">Pembaruan visual dan fungsionalitas website yang sudah ada agar terlihat lebih modern, responsif, dan mudah digunakan.</p>
+                        <ul class="list-unstyled mb-3">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Desain Responsif Mobile</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Perbaikan UI/UX Halaman Utama</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Revisi 2x</li>
+                        </ul>
+                        <span class="fs-3 fw-bold text-primary">Mulai dari Rp 5.000.000</span>
+                        <a href="index.html#contact" class="btn btn-primary mt-3 w-100">Dapatkan Penawaran</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p class="lead">Keranjang Belanja: <span id="cartCountStore" class="fw-bold fs-4">0</span> item</p>
+                <button class="btn btn-warning btn-lg"><i class="bi bi-cart-fill me-2"></i> Lanjutkan ke Pembayaran (Simulasi)</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p>&copy; 2025 Laksmanda Yoggi. All Rights Reserved.</p>
+            <p class="small">Dibuat dengan <span style="color: red;">&hearts;</span> di Malang, Indonesia.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/store-script.js"></script> </body>
+</html>
