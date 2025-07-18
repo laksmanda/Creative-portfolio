@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectsData = {
         1: {
             title: "Desain Aplikasi Mobile 'Aplikasi Kebugaran'",
-            image: "img/project1-full.png",
+            image: "img/project1.png",
             description: "Proyek ini melibatkan perancangan UI/UX lengkap untuk aplikasi kebugaran yang inovatif, dengan fokus pada kemudahan navigasi dan visualisasi data progres pengguna. Saya melakukan riset pengguna, membuat wireframe, prototipe, hingga desain final.",
             technologies: ["Figma", "Adobe Illustrator", "User Research", "Prototyping"],
             result: "Meningkatkan engagement pengguna sebesar 25% dalam uji coba awal dan mendapatkan rating kepuasan 4.8/5.",
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         2: {
             title: "Pengembangan Website E-commerce 'Toko Buku Online'",
-            image: "img/project2-full.png",
+            image: "img/project2.png",
             description: "Pengembangan website e-commerce responsif penuh, dari desain frontend hingga integrasi backend sederhana (dummy API). Fitur meliputi katalog produk, keranjang belanja, dan sistem ulasan.",
             technologies: ["HTML5", "CSS3 (Bootstrap)", "JavaScript (ReactJS)", "Node.js (Express)", "MongoDB"],
             result: "Situs web yang cepat, responsif, dan siap untuk 100+ produk, dengan waktu muat rata-rata di bawah 2 detik.",
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         3: {
             title: "Desain Branding 'Kopi Lokal Kedai Senja'",
-            image: "img/project3-full.png",
+            image: "img/project3.png",
             description: "Proyek ini mencakup pengembangan identitas merek yang komprehensif untuk kedai kopi lokal, termasuk desain logo, palet warna, tipografi, dan panduan penggunaan merek.",
             technologies: ["Adobe Illustrator", "Adobe Photoshop", "Brand Strategy", "Logo Design"],
             result: "Menciptakan identitas merek yang kuat dan mudah dikenali, meningkatkan daya tarik visual kedai kopi dan loyalitas pelanggan.",
